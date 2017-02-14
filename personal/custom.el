@@ -9,7 +9,7 @@
  '(xgen-cru-auto-cc-list (quote ("codereview-mongo@10gen.com")))
  '(xgen-cru-upload-custom-args
    (quote
-    ("--jira_server jira.mongodb.org --jira_user acm --git_similarity=90 --git_only_search_path --check_clang_format")))
+    ("--oauth2" "-H" "mongodbcr.appspot.com" "--jira_server" "https://jira.mongodb.org" "--jira_user" "acm" "--git_similarity=90" "--git_only_search_patch" "--check-clang-format")))
  '(xgen-cru-upload-py-path
    "/Users/acm/Documents/from-retina/Documents/10gen/dev/kernel-tools/codereview/upload.py"))
 (custom-set-faces

@@ -12,17 +12,17 @@
 (load-theme 'solarized-dark t)
 (add-to-list 'default-frame-alist '(font . "Inconsolata-12"))
 
-;;(setq mac-command-modifier 'meta)
-;;(setq mac-option-modifier 'super)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier 'super)
 
 (global-linum-mode t)
 
-;; (setq prelude-clean-whitespace-on-save nil)
+(setq prelude-clean-whitespace-on-save nil)
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'after-init-hook #'global-flyspell-mode)
 
-;; (setq whitespace-line-column 100) ;; limit line length
+(setq whitespace-line-column 100) ;; limit line length
 
 ;; (setq uniquify-buffer-name-style 'post-forward)
 
