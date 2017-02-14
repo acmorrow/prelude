@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/Documents/10gen/dev/kernel-tools/codereview")
+(add-to-list 'load-path "~/Documents/from-retina/Documents/10gen/dev/kernel-tools/codereview")
 
 (require 'vc-hg)
 (require 'vc-git)
@@ -10,6 +10,7 @@
 (require 'xgen-cru)
 
 (load-theme 'solarized-dark t)
+(add-to-list 'default-frame-alist '(font . "Inconsolata-12"))
 
 ;;(setq mac-command-modifier 'meta)
 ;;(setq mac-option-modifier 'super)
@@ -26,4 +27,3 @@
 ;; (setq uniquify-buffer-name-style 'post-forward)
 
 (server-start)
-
