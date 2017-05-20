@@ -10,7 +10,7 @@
 (require 'xgen-cru)
 
 (load-theme 'solarized-dark t)
-(add-to-list 'default-frame-alist '(font . "Inconsolata-12"))
+(add-to-list 'default-frame-alist '(font . "Inconsolata-14"))
 
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier 'super)
