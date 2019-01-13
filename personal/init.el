@@ -26,4 +26,25 @@
 
 ;; (setq uniquify-buffer-name-style 'post-forward)
 
+(use-package company-lsp
+  :ensure t
+  :config
+  (require 'company-lsp)
+  (push 'company-lsp company-backends)
+  (add-hook 'after-init-hook 'global-company-mode))
+
+(use-package lsp-mode
+  :ensure t
+  :config
+  (require 'lsp-mode))
+
+(require 'lsp-clients)
+
+(use-package lsp-ui
+  :ensure t
+  :config
+  (require 'lsp-ui))
+
+(global-company-mode)
+
 (server-start)
