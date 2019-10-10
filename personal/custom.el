@@ -6,11 +6,13 @@
  '(lsp-clients-clangd-executable "/usr/local/Cellar/llvm/7.0.0_1/bin/clangd")
  '(package-selected-packages
    (quote
-    (lsp-clients use-package company-lsp lsp-clangd lsp-mode lsp-ui solarized-theme yaml-mode geiser company-anaconda anaconda-mode json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company helm-ag helm-descbinds helm-projectile helm clang-format cmake-mode git-gutter-fringe vkill exec-path-from-shell zop-to-char volatile-highlights undo-tree smartrep smart-mode-line operate-on-number move-text magit ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window)))
+    (lsp-clients use-package company-lsp lsp-clangd solarized-theme yaml-mode company-anaconda json-mode rainbow-mode elisp-slime-nav rainbow-delimiters helm-ag helm-descbinds helm-projectile cmake-mode git-gutter-fringe vkill exec-path-from-shell zop-to-char volatile-highlights undo-tree smartrep smart-mode-line operate-on-number move-text ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist expand-region epl easy-kill diminish diff-hl discover-my-major crux browse-kill-ring beacon anzu ace-window)))
  '(xgen-cru-auto-cc-list (quote ("codereview-mongo@10gen.com")))
+ '(xgen-cru-jira-username "acm")
  '(xgen-cru-upload-custom-args
    (quote
-    ("--oauth2" "-H" "mongodbcr.appspot.com" "--jira_server" "https://jira.mongodb.org" "--jira_user" "acm" "--git_similarity=90" "--git_only_search_patch")))
+    ("--jira_server" "https://jira.mongodb.org" "--git_similarity=90" "--git_only_search_patch")))
+ '(xgen-cru-upload-email "acm@mongodb.com")
  '(xgen-cru-upload-py-path
    "/Users/acm/Documents/from-retina/Documents/10gen/dev/kernel-tools/codereview/upload.py"))
 (custom-set-faces
