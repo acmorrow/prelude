@@ -6,7 +6,7 @@
  '(lsp-clients-clangd-executable "/usr/local/Cellar/llvm/7.0.0_1/bin/clangd")
  '(package-selected-packages
    (quote
-    (lsp-clients use-package company-lsp lsp-clangd solarized-theme yaml-mode company-anaconda json-mode rainbow-mode elisp-slime-nav rainbow-delimiters helm-ag helm-descbinds helm-projectile cmake-mode git-gutter-fringe vkill exec-path-from-shell zop-to-char volatile-highlights undo-tree smartrep smart-mode-line operate-on-number move-text ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist expand-region epl easy-kill diminish diff-hl discover-my-major crux browse-kill-ring beacon anzu ace-window)))
+    (go-mode lsp-ui lsp-clients use-package company-lsp lsp-clangd solarized-theme yaml-mode company-anaconda json-mode rainbow-mode elisp-slime-nav rainbow-delimiters helm-ag helm-descbinds helm-projectile cmake-mode git-gutter-fringe vkill exec-path-from-shell zop-to-char volatile-highlights undo-tree smartrep smart-mode-line operate-on-number move-text ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist expand-region epl easy-kill diminish diff-hl discover-my-major crux browse-kill-ring beacon anzu ace-window)))
  '(xgen-cru-auto-cc-list (quote ("codereview-mongo@10gen.com")))
  '(xgen-cru-jira-username "acm")
  '(xgen-cru-upload-custom-args

@@ -6,7 +6,7 @@
 (require 'git-gutter-fringe)
 (require 'cmake-mode)
 (require 'markdown-mode)
-(require 'clang-format)
+;; (require 'clang-format)
 (require 'xgen-cru)
 
 (load-theme 'solarized-dark t)
